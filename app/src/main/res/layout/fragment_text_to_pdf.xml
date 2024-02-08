@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="11">
+
+            <ImageButton
+                android:id="@+id/add_text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/text_icon"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/add_image_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/image_icon"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/add_vector_graphics_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/vector_graphics_icon"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="11">
+
+            <ImageButton
+                android:id="@+id/add_text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/text_icon"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/add_image_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/image_icon"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/add_vector_graphics_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/vector_graphics_icon"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="11">
+
+            <ImageButton
+                android:id="@+id/add_text_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/text_icon"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/add_image_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/image_icon"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/add_vector_graphics_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/vector_graphics_icon"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="11">
+
+            <ImageButton
+                android:id="@+id/save_pdf"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/save_icon"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
